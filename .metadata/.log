@@ -154,3 +154,6 @@ org.eclipse.core.internal.resources.ResourceException: A resource already exists
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
 !SUBENTRY 1 org.eclipse.core.resources 4 272 2012-10-10 16:44:09.937
 !MESSAGE A resource already exists on disk 'Z:\GitHub\fanshawec.ca_mobile_team6\ca.fanshawec.aye_icruise.Aye_iCruise\.settings'.
+
+!ENTRY org.eclipse.ui 2 2 2012-10-10 16:53:05.359
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
