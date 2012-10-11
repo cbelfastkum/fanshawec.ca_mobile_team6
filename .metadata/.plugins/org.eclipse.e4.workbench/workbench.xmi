@@ -87,7 +87,7 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_z7nkkBMaEeKd6Z4AEWYuLQ" elementId="org.eclipse.ant.ui.views.AntView" toBeRendered="false" ref="_z7nkgBMaEeKd6Z4AEWYuLQ"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_z7nkkRMaEeKd6Z4AEWYuLQ" elementId="bottom" containerData="2500" selectedElement="_z7nklhMaEeKd6Z4AEWYuLQ">
+              <children xsi:type="basic:PartStack" xmi:id="_z7nkkRMaEeKd6Z4AEWYuLQ" elementId="bottom" containerData="2500" selectedElement="_BogRoRMjEeKqVuPLuv_naQ">
                 <tags>newtablook</tags>
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_z7nkkhMaEeKd6Z4AEWYuLQ" elementId="org.eclipse.ui.views.ProblemView" ref="_z7eakxMaEeKd6Z4AEWYuLQ"/>
@@ -97,6 +97,7 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_z7nklhMaEeKd6Z4AEWYuLQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_z7ealxMaEeKd6Z4AEWYuLQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_z7nklxMaEeKd6Z4AEWYuLQ" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_z7eamBMaEeKd6Z4AEWYuLQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_z7nkmBMaEeKd6Z4AEWYuLQ" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_z7eamRMaEeKd6Z4AEWYuLQ"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_BogRoRMjEeKqVuPLuv_naQ" elementId="com.android.ide.eclipse.ddms.views.LogCatView" ref="_BogRoBMjEeKqVuPLuv_naQ"/>
               </children>
             </children>
           </children>
@@ -157,7 +158,7 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_z7eakxMaEeKd6Z4AEWYuLQ" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide//icons/full/eview16/problems_view.gif" tooltip="0 items" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Errors (1 item)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;75&quot; org.eclipse.ui.ide.markerType=&quot;75&quot; org.eclipse.ui.ide.pathField=&quot;100&quot; org.eclipse.ui.ide.resourceField=&quot;75&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;250&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;75&quot; org.eclipse.ui.ide.markerType=&quot;75&quot; org.eclipse.ui.ide.pathField=&quot;100&quot; org.eclipse.ui.ide.resourceField=&quot;75&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;250&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_0FAxEBMaEeKd6Z4AEWYuLQ" elementId="org.eclipse.ui.views.ProblemView">
@@ -217,6 +218,16 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_z7nkgRMaEeKd6Z4AEWYuLQ" elementId="org.eclipse.jdt.junit.ResultView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="JUnit" iconURI="platform:/plugin/org.eclipse.jdt.junit//icons/full/eview16/junit.gif" closeable="true">
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_BogRoBMjEeKqVuPLuv_naQ" elementId="com.android.ide.eclipse.ddms.views.LogCatView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="LogCat" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/logcat.png" tooltip="" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Android</tags>
+      <menus xmi:id="_BpjagBMjEeKqVuPLuv_naQ" elementId="com.android.ide.eclipse.ddms.views.LogCatView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_BpjagRMjEeKqVuPLuv_naQ" elementId="com.android.ide.eclipse.ddms.views.LogCatView" visible="false"/>
     </sharedElements>
     <trimBars xmi:id="_z4pJABMaEeKd6Z4AEWYuLQ" elementId="org.eclipse.ui.main.toolbar"/>
     <trimBars xmi:id="_0IlpiRMaEeKd6Z4AEWYuLQ" elementId="org.eclipse.ui.trim.status" side="Bottom">
