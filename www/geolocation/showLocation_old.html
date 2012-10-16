@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Maps JavaScript API v3 Example: Map Simple</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      html, body, #map_canvas {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+    </style>
+	<script type="text/javascript" charset="utf-8" src="../js/cordova-2.0.0.js"></script>
+   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDD353fOPh-KBUQ-2ekPCg75uxXRn0D9Tk&sensor=false"></script>
+   
+<script type="text/javascript">
+<!--
+	
+var map;
+var watchID = null;
+function onLoad()
+{
+	document.addEventListener("deviceready", onDeviceReady);
+	
+}
+
+function onDeviceReady()
+{
+	watchID = navigator.geolocation.getCurrentPosition(onSuccess, onError);
+}
+
+
+function onSuccess()
+{
+		var latitude=null;
+		var longitude=null;
+		latitude= position.coords.latitude; 
+		longitude= position.coords.longitude;
+
+		showMap(latitude,longitude);
+}
+
+function onError()
+{
+	 var element = document.getElementById('map_canvas');       
+     element.innerHTML = error.message;
+}
+
+function showMap(varLat,varLong) {
+        var mapOptions = 
+		{
+			zoom: 8,
+			center: new google.maps.LatLng(varLat, varLong),
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+}
+
+    //-->
+</script>
+  </head>
+  <body onload="onLoad()">
+  <table border=1>
+	<tr>
+		<td> <a href="../page2.html">Home</a></td>
+		<td> <a href="geolocation.html">Geolocations Home</a></td>
+	</tr>
+  </table>
+
+    <div id="map_canvas">
+	
+	Drawing Map......
+	
+	</div>
+
+	
+	
+
+	
+  </body>
+</html>

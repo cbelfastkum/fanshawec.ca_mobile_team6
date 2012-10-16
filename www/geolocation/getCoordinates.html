@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Maps JavaScript API v3 Example: Map Simple</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+   
+	<script type="text/javascript" charset="utf-8" src="../js/cordova-2.0.0.js"></script>
+    <script type="text/javascript">
+    <!--
+		
+		var watchID = null;
+
+		function onLoad(){
+			document.addEventListener("deviceready", onDeviceReady);
+
+		}
+
+		function onDeviceReady()
+		{
+			
+			watchID = navigator.geolocation.getCurrentPosition(onSuccess, onError);
+
+		}
+
+
+		function onSuccess(position) {
+			var element = document.getElementById('geolocation');
+			element.innerHTML ='Latitude: ' + position.coords.latitude + '<br />' +
+                       'Longitude: ' + position.coords.longitude + '<br />' +
+                       '<hr />'     
+		}
+
+		 function onError(error) {
+              var element = document.getElementById('geolocation');       
+              element.innerHTML = error.message;
+    }
+    //-->
+    </script>
+    
+  </head>
+  <table border=1>
+	<tr>
+		<td> <a href="../page2.html">Home</a></td>
+		<td> <a href="geolocation.html">Geolocations Home</a></td>
+	</tr>
+  </table>
+  <body onload="onLoad()">
+    <div id="geolocation">
+	Accessing Coordinates..........
+	
+	
+	</div>
+  </body>
+</html>
